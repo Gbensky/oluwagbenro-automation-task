@@ -1,0 +1,55 @@
+{
+  "apis": {
+    "getUser": "/v2/user",
+    "getStoreOrder": "/v2/store/order"
+  },
+  "commonHeaders": {
+    "Accept": "application/json"
+  },
+  "getUsername": {
+    "username": "nano"
+  },
+  "postUser": {
+    "id": 1,
+    "username": "nano",
+    "firstName": "Smith",
+    "lastName": "Manny",
+    "email": "manny@gmail.com",
+    "password": "meko",
+    "phone": "1234567889",
+    "userStatus": 1
+  },
+  "postUserArray": [
+    {
+      "id": 2,
+      "username": "nadine",
+      "firstName": "Nadin",
+      "lastName": "Smith",
+      "email": "nadin@gmail.com",
+      "password": "meko",
+      "phone": "1234567889",
+      "userStatus": 1
+    },
+    {
+      "id": 3,
+      "username": "melo",
+      "firstName": "Milo",
+      "lastName": "Malo",
+      "email": "milo@gmail.com",
+      "password": "meko",
+      "phone": "1234567889",
+      "userStatus": 1
+    }
+  ],
+  "putUser": {
+    "id": 1,
+    "username": "nanol",
+    "firstName": "Smit",
+    "lastName": "Mann",
+    "email": "mann@gmail.com",
+    "password": "meko",
+    "phone": "123456789",
+    "userStatus": 1
+  },
+  "postUserNoField": {}
+}

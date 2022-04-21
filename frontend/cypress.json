@@ -1,0 +1,6 @@
+{
+  "pageLoadTimeout": 25000,
+  "viewportWidth": 1280,
+  "viewportHeight": 720,
+  "modifyObstructiveCode": false
+}
