@@ -21,8 +21,9 @@ all search result
 - Search with Invalid Text
 
 ###### Reason: 
- Users shouldn't be spammed with results that are not including the
-search text. This way the user knows to refine the search text.
+Users should be notified when their search text doesn't match any record in 
+the application rather than been given random results.  This way the user 
+can refine the search text.
 
 ###### Implementation Steps: 
 - Enter an invalid Text in the search box
