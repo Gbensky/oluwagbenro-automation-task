@@ -73,5 +73,5 @@ if brew installed on your commandline
 ```cd backend```
 - Install Packages
 ```npm install```
-- Run tests (Headless)
+- Run tests
 ```npm run PetStoreAPI```
